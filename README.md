@@ -10,10 +10,15 @@ Actualizar, Eliminar) sobre la tabla Eventos.
 ### Modelo de Datos:
 La tabla Eventos deberá incluir los siguientes campos:
  id (identificador único del evento, tipo STRING y generado UUID)
+
  nombre (nombre del evento, tipo cadena)
+
  fecha (fecha del evento, tipo fecha)
+
  ubicacion (ubicación del evento, tipo cadena)
+
  capacidad (capacidad máxima de asistentes, tipo entero)
+
 ### Endpoints de la API:
  Crear evento: Un endpoint para añadir un nuevo evento al sistema.
  Obtener eventos: Un endpoint para listar todos los eventos registrados.
