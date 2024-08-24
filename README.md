@@ -9,6 +9,7 @@ Actualizar, Eliminar) sobre la tabla Eventos.
 
 ### Modelo de Datos:
 La tabla Eventos deberá incluir los siguientes campos:
+
  id (identificador único del evento, tipo STRING y generado UUID)
 
  nombre (nombre del evento, tipo cadena)
@@ -20,12 +21,17 @@ La tabla Eventos deberá incluir los siguientes campos:
  capacidad (capacidad máxima de asistentes, tipo entero)
 
 ### Endpoints de la API:
+
  Crear evento: Un endpoint para añadir un nuevo evento al sistema.
+
  Obtener eventos: Un endpoint para listar todos los eventos registrados.
+
  Obtener evento por ID: Un endpoint para obtener detalles de un evento 
 específico por su ID.
+
  Actualizar evento: Un endpoint para actualizar la información de un evento 
 existente.
+
  Eliminar evento: Un endpoint para eliminar un evento del sistema
 
 Todos los endpoints se deben probar en una coleccion de Postman guardando 
